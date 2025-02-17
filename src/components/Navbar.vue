@@ -2,7 +2,13 @@
   <div class="navbar">
     <div class="logo">
       <div class="Group_1">
-        <div class="Rectangle"><img src="" alt="JLO" /></div>
+        <div class="Rectangle">
+          <img
+            src="/public/developer-on-macbook.png"
+            alt="JLO"
+            class="logo-img"
+          />
+        </div>
       </div>
     </div>
     <div class="supportedContent">
@@ -45,16 +51,22 @@
   height: 25px;
   flex-shrink: 0;
   border-radius: 5px;
-  background: #38c2ac;
-  color: #fff;
-  font-family: Roboto;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 30px;
-  text-transform: uppercase;
-  text-align: center;
-  cursor: pointer;
+  background: #181818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.logo-img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.Rectangle:hover .logo-img {
+  transform: scale(1.5);
 }
 
 .supportedContent {
