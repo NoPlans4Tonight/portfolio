@@ -38,8 +38,6 @@
             <li>Storyblok CMS</li>
             <li>Redis</li>
             <li>Git</li>
-            <li>GitHub Actions</li>
-            <li>CI/CD</li>
             <li>RESTful APIs</li>
             <li>Docker</li>
             <li>Agile & Scrum</li>
