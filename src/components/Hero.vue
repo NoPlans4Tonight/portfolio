@@ -46,7 +46,6 @@ export default {
 <style scoped>
 .hero-section {
   display: flex;
-  width: 1920px;
   align-items: flex-start;
   flex-shrink: 0;
 }
@@ -69,7 +68,7 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 80%;
   background: rgba(0, 0, 0, 0.7);
   z-index: -1;

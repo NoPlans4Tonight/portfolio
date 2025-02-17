@@ -1,5 +1,5 @@
 <template>
-  <div id="projects" class="project">
+  <div id="experiences" class="project">
     <component
       v-for="project in projectComponents"
       :is="getComponent(project.name)"
@@ -45,7 +45,11 @@ export default {
 .project {
   margin: 20px 0;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
 }
+
+/* .project {
+  display: flex;
+  width: 1920px;
+  align-items: flex-start;
+} */
 </style>
