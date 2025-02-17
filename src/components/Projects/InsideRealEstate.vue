@@ -1,9 +1,6 @@
 <template>
   <div class="project">
     <h2>Inside Real Estate</h2>
-    <img src="@/assets/IRECarousel.png" alt="IRE Carousel" />
-    <img src="@/assets/IREPDPs.png" alt="IRE PDPs" />
-    <img src="@/assets/IREPremiumTemplates.png" alt="IRE Premium Template" />
     <p>
       Storyblok Integration & Premium Templates – Led the integration of
       Storyblok CMS for marketplace Product Detail Pages (PDPs), making them
@@ -51,9 +48,37 @@ export default {
   border-radius: 8px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.frame {
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
+}
+
+.pics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.pics img:nth-child(1) {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+
+.pics img:nth-child(2) {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.pics img:nth-child(3) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 </style>

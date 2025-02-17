@@ -20,16 +20,16 @@ export default {
   components: {
     Buehler,
     Foxtrot,
-    InsideRealEstate,
     Whisker,
+    InsideRealEstate,
   },
   data() {
     return {
       projectComponents: [
         { id: 1, name: "Buehler" },
         { id: 2, name: "Foxtrot" },
-        { id: 3, name: "InsideRealEstate" },
-        { id: 4, name: "Whisker" },
+        { id: 3, name: "Whisker" },
+        { id: 4, name: "InsideRealEstate" },
       ],
     };
   },

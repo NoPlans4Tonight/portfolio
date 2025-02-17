@@ -1,7 +1,6 @@
 <template>
   <div class="project">
     <h2>Foxtrot</h2>
-    <img src="@/assets/FoxtrotMarket.jpeg" alt="Foxtrot Market" />
     <p>
       Used SOLID design principles for developing services attached to the
       external e-commerce web application along with an internal inventory

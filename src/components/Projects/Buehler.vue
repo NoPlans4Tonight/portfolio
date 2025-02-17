@@ -1,7 +1,6 @@
 <template>
   <div class="project">
     <h2>Buehler</h2>
-    <img src="@/assets/esdLicensing.png" alt="ESD Licensing" />
     <p>
       Built public helpdesk website to traffic customer service requests built
       on Laravel framework with HTML, JavaScript, and Bootstrap 4 frontend.
@@ -61,9 +60,21 @@ export default {
   border-radius: 8px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.frame {
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
+}
+
+.pics {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  max-width: 600px; /* Adjust the max-width as needed */
 }
 </style>
