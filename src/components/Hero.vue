@@ -54,7 +54,7 @@ export default {
 .hero-section::before {
   content: "";
   position: absolute;
-  top: 50px;
+  top: 0;
   left: 50%;
   width: 99vw;
   height: 80%;
@@ -69,8 +69,8 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 80%;
   background: rgba(0, 0, 0, 0.7);
   z-index: -1;
 }
