@@ -36,7 +36,7 @@
 import IconLocation from "./icons/IconLocation.vue";
 
 export default {
-  name: "Hero",
+  name: "HeroSection",
   components: {
     IconLocation,
   },
@@ -49,6 +49,30 @@ export default {
   width: 1920px;
   align-items: flex-start;
   flex-shrink: 0;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  width: 99vw;
+  height: 80%;
+  background: url("@/assets/HomeSection.jpg") rgb(83, 83, 83) 0px 0px / cover
+    no-repeat;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.hero-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
 }
 
 .hero-row {
@@ -170,6 +194,6 @@ h4 {
   flex-shrink: 0;
   border-radius: 180px;
   border: 20px solid rgba(0, 0, 0, 0.4);
-  /* background: url(<path-to-image>) rgb(83, 83, 83) 0px 0px / 100% 100% no-repeat; */
+  background: url(<path-to-image>) rgb(0, 0, 0) 0px 0px / 100% 100% no-repeat;
 }
 </style>

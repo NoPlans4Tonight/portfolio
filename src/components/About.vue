@@ -1,7 +1,10 @@
 <template>
   <div id="about" class="section">
     <div class="col1">
-      <img src="" alt="Avatar" />
+      <img
+        src="https://avatars.githubusercontent.com/u/29239498?v=4"
+        alt="Avatar"
+      />
     </div>
     <div class="col2">
       <div class="col2-inner">
@@ -65,26 +68,31 @@ export default {
   flex-wrap: wrap;
 }
 
-.col1 {
+.col1,
+.col2 {
   display: flex;
   padding: 0px 15px;
   align-items: flex-start;
-  flex: 1 0 0;
+  flex: 1 1 0;
+}
+
+.col1 {
   background: url(<path-to-image>) lightgray 0px 0px / 100% 100% no-repeat;
 }
 
+.col1 img {
+  max-width: 100%;
+  height: auto;
+}
+
 .col2 {
-  display: flex;
   max-width: 570px;
   min-height: 1px;
   padding: 20px 15px 18.56px 15px;
-  align-items: flex-start;
-  flex: 1 0 0;
 }
 
 .col2-inner {
-  width: 540px;
-  height: 292.39px;
+  width: 100%;
 }
 
 h2 {
@@ -93,7 +101,7 @@ h2 {
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: 38.4px; /* 120% */
+  line-height: 38.4px;
 }
 
 p {
@@ -102,14 +110,13 @@ p {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.6; /* 160% */
+  line-height: 1.6;
   margin-bottom: 20px;
   max-width: 100%;
 }
 
 .skills {
-  width: 490px;
-  height: 84px;
+  width: 100%;
   flex-shrink: 0;
 }
 
@@ -117,13 +124,14 @@ li {
   display: inline-flex;
   padding: 1px 10.42px 1px 11px;
   align-items: flex-start;
-  border-radius: 4px;
+  border-radius: 10px;
   border: 1px solid #0bceaf;
   color: #fff;
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 171.429% */
+  line-height: 24px;
+  margin: 0px 20px 10px 0px;
 }
 </style>
