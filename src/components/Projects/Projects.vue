@@ -1,5 +1,10 @@
 <template>
-  <div class="project">
+  <div id="projects" class="project">
+    <component
+      v-for="project in projectComponents"
+      :is="getComponent(project.name)"
+      :key="project.id"
+    />
     <slot />
   </div>
 </template>
@@ -11,12 +16,12 @@ import InsideRealEstate from "./InsideRealEstate.vue";
 import Whisker from "./Whisker.vue";
 
 export default {
-  name: "Project1",
+  name: "ProjectContainer",
   components: {
     Buehler,
     Foxtrot,
-    Whisker,
     InsideRealEstate,
+    Whisker,
   },
   data() {
     return {
