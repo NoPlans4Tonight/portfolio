@@ -1,10 +1,7 @@
 <template>
   <div id="about" class="section">
     <div class="col1">
-      <img
-        src="https://avatars.githubusercontent.com/u/29239498?v=4"
-        alt="Avatar"
-      />
+      <img src="/public/developer-on-macbook.png" alt="Avatar" />
     </div>
     <div class="col2">
       <div class="col2-inner">
