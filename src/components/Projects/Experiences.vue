@@ -1,5 +1,5 @@
 <template>
-  <div id="projects" class="project">
+  <div id="experiences" class="project">
     <component
       v-for="project in projectComponents"
       :is="getComponent(project.name)"
@@ -20,15 +20,15 @@ export default {
   components: {
     Buehler,
     Foxtrot,
-    InsideRealEstate,
     Whisker,
+    InsideRealEstate,
   },
   data() {
     return {
       projectComponents: [
-        { id: 1, name: "Buehler" },
+        { id: 1, name: "InsideRealEstate" },
         { id: 2, name: "Foxtrot" },
-        { id: 3, name: "InsideRealEstate" },
+        { id: 3, name: "Buehler" },
         { id: 4, name: "Whisker" },
       ],
     };
@@ -45,7 +45,11 @@ export default {
 .project {
   margin: 20px 0;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
 }
+
+/* .project {
+  display: flex;
+  width: 1920px;
+  align-items: flex-start;
+} */
 </style>

@@ -1,10 +1,7 @@
 <template>
   <div id="about" class="section">
     <div class="col1">
-      <img
-        src="https://avatars.githubusercontent.com/u/29239498?v=4"
-        alt="Avatar"
-      />
+      <img src="/public/developer-on-macbook.png" alt="Avatar" />
     </div>
     <div class="col2">
       <div class="col2-inner">
@@ -59,8 +56,8 @@ export default {
 <style scoped>
 .section {
   display: flex;
-  width: 1140px;
-  padding: 100px 0px 60px 0px;
+  width: 100%;
+  padding: 150px 0px 60px 0px;
   align-items: flex-start;
   align-content: flex-start;
   flex-wrap: wrap;
@@ -69,13 +66,13 @@ export default {
 .col1,
 .col2 {
   display: flex;
-  padding: 0px 15px;
+  padding: 70px 15px;
   align-items: flex-start;
   flex: 1 1 0;
 }
 
 .col1 {
-  background: url(<path-to-image>) lightgray 0px 0px / 100% 100% no-repeat;
+  background: url(<path-to-image>) #181818 0px 0px / 100% 100% no-repeat;
 }
 
 .col1 img {
@@ -86,7 +83,7 @@ export default {
 .col2 {
   max-width: 570px;
   min-height: 1px;
-  padding: 20px 15px 18.56px 15px;
+  padding: 20px 15px 18.56px 30px;
 }
 
 .col2-inner {
