@@ -3,8 +3,9 @@
     <h2>Buehler</h2>
     <ul>
       <li>
-        Built public helpdesk website to traffic customer service requests built
-        on Laravel framework with HTML, JavaScript, and Bootstrap 4 frontend.
+        Improved public helpdesk website to traffic customer service requests
+        built on Laravel framework with HTML, JavaScript, and Bootstrap 4
+        frontend.
       </li>
       <li>
         Built web application that improved production and assembly of hardness

@@ -26,10 +26,10 @@ export default {
   data() {
     return {
       projectComponents: [
-        { id: 1, name: "Buehler" },
+        { id: 1, name: "InsideRealEstate" },
         { id: 2, name: "Foxtrot" },
-        { id: 3, name: "Whisker" },
-        { id: 4, name: "InsideRealEstate" },
+        { id: 3, name: "Buehler" },
+        { id: 4, name: "Whisker" },
       ],
     };
   },
