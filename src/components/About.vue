@@ -1,0 +1,129 @@
+<template>
+  <div id="about" class="section">
+    <div class="col1">
+      <img src="" alt="Avatar" />
+    </div>
+    <div class="col2">
+      <div class="col2-inner">
+        <h2>About Me</h2>
+        <p>
+          I'm a Software Engineer with expertise in Laravel and Vue.js,
+          specializing in building scalable and high-performance web
+          applications. I've led major features, including Storyblok integration
+          for marketplace PDPs, a dynamic product carousel, and premium website
+          templates, improving user experience and business impact.
+        </p>
+        <p>
+          Beyond development, I mentor junior engineers, sharing best practices
+          and guiding them through software design principles like the Factory
+          pattern to improve code maintainability. I also architect scalable
+          solutions, ensuring clean, efficient, and extensible codebases.
+        </p>
+        <p>
+          I thrive on solving complex problems, optimizing workflows, and
+          continuously improving development processes to deliver high-quality
+          software.
+        </p>
+        <div class="skills">
+          <ul>
+            <li>Laravel</li>
+            <li>Vue.js</li>
+            <li>PHP</li>
+            <li>JavaScript</li>
+            <li>GraphQL</li>
+            <li>MySQL</li>
+            <li>Storyblok CMS</li>
+            <li>Redis</li>
+            <li>Git</li>
+            <li>GitHub Actions</li>
+            <li>CI/CD</li>
+            <li>RESTful APIs</li>
+            <li>Docker</li>
+            <li>Agile & Scrum</li>
+            <li>Software Architecture</li>
+            <li>Design Patterns (Factory, Repository, etc.)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "AboutSection",
+};
+</script>
+
+<style scoped>
+.section {
+  display: flex;
+  width: 1140px;
+  padding: 100px 0px 60px 0px;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.col1 {
+  display: flex;
+  padding: 0px 15px;
+  align-items: flex-start;
+  flex: 1 0 0;
+  background: url(<path-to-image>) lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.col2 {
+  display: flex;
+  max-width: 570px;
+  min-height: 1px;
+  padding: 20px 15px 18.56px 15px;
+  align-items: flex-start;
+  flex: 1 0 0;
+}
+
+.col2-inner {
+  width: 540px;
+  height: 292.39px;
+}
+
+h2 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38.4px; /* 120% */
+}
+
+p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6; /* 160% */
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.skills {
+  width: 490px;
+  height: 84px;
+  flex-shrink: 0;
+}
+
+li {
+  display: inline-flex;
+  padding: 1px 10.42px 1px 11px;
+  align-items: flex-start;
+  border-radius: 4px;
+  border: 1px solid #0bceaf;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 171.429% */
+}
+</style>
