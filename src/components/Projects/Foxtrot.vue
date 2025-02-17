@@ -1,6 +1,6 @@
 <template>
   <div class="project">
-    <h2>Foxtrot</h2>
+    <h2>Foxtrot Market</h2>
     <ul>
       <li>
         Used SOLID design principles for developing services attached to the

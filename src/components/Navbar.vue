@@ -2,14 +2,14 @@
   <div class="navbar">
     <div class="logo">
       <div class="Group_1">
-        <div class="Rectangle">Resume</div>
+        <div class="Rectangle"><img src="" alt="JLO" /></div>
       </div>
     </div>
     <div class="supportedContent">
       <li class="list">
-        <RouterLink to="/">Home</RouterLink>
+        <a href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#projects">Projects</a>
+        <a href="#experiences">Experiences</a>
       </li>
     </div>
   </div>
@@ -22,6 +22,8 @@
   padding: 8px 16px;
   align-items: center;
   gap: 16px;
+  position: fixed;
+  z-index: 1000;
 }
 
 .logo {

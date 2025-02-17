@@ -1,6 +1,6 @@
 <template>
   <div class="project">
-    <h2>Buehler</h2>
+    <h2>Buehler An ITW Company</h2>
     <ul>
       <li>
         Improved public helpdesk website to traffic customer service requests

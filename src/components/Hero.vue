@@ -1,5 +1,5 @@
 <template>
-  <div class="hero-section">
+  <div id="home" class="hero-section">
     <div class="hero-ovelay">
       <div class="hero-row">
         <div class="hero-col1">
@@ -76,7 +76,7 @@ export default {
 
 .hero-row {
   display: flex;
-  width: 1140px;
+  width: 100%;
   padding: 180px 0px;
   justify-content: center;
   align-items: center;
@@ -185,8 +185,8 @@ h4 {
 }
 
 .col2-border img {
-  width: 360px;
-  height: 360px;
+  width: 400px;
+  height: 400px;
   max-width: 400px;
   object-fit: cover;
   object-position: bottom;
