@@ -9,8 +9,7 @@
       <li class="list">
         <RouterLink to="/">Home</RouterLink>
         <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#experiences">Experiences</a>
+        <a href="#projects">Projects</a>
       </li>
     </div>
   </div>
