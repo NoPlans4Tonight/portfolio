@@ -59,7 +59,7 @@ export default {
 <style scoped>
 .section {
   display: flex;
-  width: 1140px;
+  width: 100%;
   padding: 150px 0px 60px 0px;
   align-items: flex-start;
   align-content: flex-start;
