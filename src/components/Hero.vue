@@ -45,7 +45,6 @@ export default {
 
 <style scoped>
 .hero-section {
-  display: flex;
   align-items: flex-start;
   flex-shrink: 0;
 }
@@ -55,7 +54,7 @@ export default {
   position: absolute;
   top: 0;
   left: 50%;
-  width: 99vw;
+  width: 100%;
   height: 80%;
   background: url("@/assets/HomeSection.jpg") rgb(83, 83, 83) 0px 0px / cover
     no-repeat;
@@ -87,6 +86,7 @@ export default {
 
 .hero-col1 {
   display: flex;
+  width: 100%;
   max-width: 570px;
   min-height: 1px;
   padding: 0px 15px;
@@ -96,15 +96,16 @@ export default {
 }
 
 .col1-header {
-  width: 540px;
+  width: 100%;
   height: 476px;
 }
 
 .header-information {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 15px;
   margin-top: 10px;
+  word-break: auto-phrase;
 }
 
 span {
@@ -143,7 +144,7 @@ h4 {
 
 .contact {
   display: flex;
-  width: 540px;
+  width: 100%;
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
@@ -168,6 +169,7 @@ h4 {
 .hero-col2 {
   display: flex;
   max-width: 570px;
+  width: 100%;
   min-height: 1px;
   padding: 30px 85px 0px 85px;
   justify-content: center;
