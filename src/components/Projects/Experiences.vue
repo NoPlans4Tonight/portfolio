@@ -46,10 +46,4 @@ export default {
   margin: 20px 0;
   padding: 20px;
 }
-
-/* .project {
-  display: flex;
-  width: 1920px;
-  align-items: flex-start;
-} */
 </style>

@@ -56,8 +56,8 @@ export default {
 }
 
 h2 {
-  font-family: "Roboto", sans-serif;
-  font-size: 24px;
+  font-family: "Roboto";
+  font-size: 32px;
   color: #fff;
   text-align: center;
   margin-bottom: 20px;
