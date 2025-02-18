@@ -22,6 +22,10 @@
 </template>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   display: flex;
   width: 100%;
@@ -73,7 +77,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  flex: 1;
+  width: 100%;
 }
 
 .list {
