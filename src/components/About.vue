@@ -111,6 +111,9 @@ p {
 }
 
 .skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
   width: 100%;
   flex-shrink: 0;
 }
