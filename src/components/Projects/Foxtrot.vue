@@ -3,18 +3,13 @@
     <h2>Foxtrot Market</h2>
     <ul>
       <li>
-        Used SOLID design principles for developing services attached to the
-        external e-commerce web application along with an internal inventory
-        system web application.
+        Used SOLID design principles for developing services on the e-commerce
+        web application along with an internal inventory system web application.
       </li>
       <li>
-        Built API endpoints using Laravel MVC, Django MVT, and Flask MVC which
-        served JSON details of orders, items, inventory, and user & customer
-        detail information to React frontend.
-      </li>
-      <li>
-        Completed component unit test driven development within 2-week sprint
-        cycles.
+        Built API endpoints using Laravel MVC an Django MVT which served JSON
+        details of orders, items, inventory, and user & customer detail
+        information to React frontend.
       </li>
       <li>
         Implemented a new algorithm to pull in customer payment information on
@@ -26,7 +21,7 @@
         the hash map; this new algorithm of payment token matching dramatically
         increased page load time.
       </li>
-      <li>Ensured high-quality code using a comprehensive testing approach.</li>
+      <li>Completed test driven development within 2-week sprint cycles.</li>
       <li>
         Used Datadog and sentry.io to monitor both backend web applications and
         refactored slow search queries to improve performance.

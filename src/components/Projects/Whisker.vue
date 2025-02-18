@@ -3,23 +3,28 @@
     <h2>Whisker</h2>
     <ul>
       <li>
-        Mainly responsible for developing new features and maintaining the
-        quality assurance of litter robot production.
+        Developed reverse component lookup to retrieve information about what
+        unit the component was potentially installed in. This was critical for
+        tracking down issues with units that were already in the field.
       </li>
       <li>
-        Created new assembler stations for assembling robots on the production
+        Created new assembling quality assurance test stations for the litter
+        robot feeder line.
       </li>
       <li>
-        Developed new QA automation stations for assembling robots on the
-        production floor using Svelte for GUI and PHP back-en
+        Enhanced the Litter Robot 4 production line by adding various
+        configuration test automation. I added tests that checked the firmware
+        of the boards being installed to the units. If any firmware was out of
+        date, the test would fail and the unit would be sent to a rework
+        station.
       </li>
       <li>
-        Created a new system for tracking and managing inventory of robot parts
-        using PHP on the Laravel framework.
-      </li>
-      <li>
-        Created a rework station for reconditioned units that needed to be torn
-        down and rebuilt.
+        Created a rework station for units that failed any quality assurance
+        tests on the production line to be repaired and sent back to the line.
+        Built in a listener to each QA station that would check for failed
+        tests. If a test failed the unit was sent straight to rework
+        automatically. This saved time and money by not having to manually check
+        each unit. Along with keeping track of the failed units in a database.
       </li>
     </ul>
   </div>

@@ -20,28 +20,8 @@
         web application and identified any pain points in the process.
       </li>
       <li>
-        Developed case submission web forms for Dynamics Customer Engagement
-        system which was used for customer service, marketing, and sales.
-      </li>
-      <li>
         Worked on a globally-dispersed development team to ensure global
         compliance with data sensitivity regulations (GDPR).
-      </li>
-      <li>
-        Worked with R&D and Customer Service departments to determine the best
-        functionality of future web applications and speed up all manual
-        workflows.
-      </li>
-      <li>
-        Led design and implementation of enterprise programs including
-        localization of various languages for hardness testing machine software
-        using PHP on the Laravel framework.
-      </li>
-      <li>
-        Ensured exceptional code quality using PSR-4 and PSR-6 standards and
-        thorough unit testing on newly developed features like dynamic pulls
-        from Buehler’s ERP system that checked against unique serial numbers
-        assigned to hardness tester machines.
       </li>
     </ul>
   </div>
