@@ -42,6 +42,15 @@
             <li>Design Patterns (Factory, Repository, etc.)</li>
           </ul>
         </div>
+        <div>
+          <a
+            href="https://github.com/NoPlans4Tonight"
+            target="_blank"
+            class="github-link"
+          >
+            <i class="fab fa-github" /> GitHub
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -131,6 +140,30 @@ li {
   font-weight: 500;
   line-height: 24px;
   margin: 0px 20px 10px 0px;
+}
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.github-link i {
+  margin-right: 8px;
+}
+
+.github-link:hover {
+  color: #fff;
+  background-color: rgba(81, 81, 81, 0.2);
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-bottom: 3px solid #fff;
 }
 
 @media (max-width: 768px) {
