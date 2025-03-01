@@ -1,5 +1,5 @@
 <template>
-  <div id="experiences" class="project">
+  <div id="work" class="project">
     <component
       v-for="project in projectComponents"
       :is="getComponent(project.name)"

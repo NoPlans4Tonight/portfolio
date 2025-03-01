@@ -66,7 +66,7 @@ export default {
 .col1,
 .col2 {
   display: flex;
-  padding: 70px 15px;
+  padding: 55px 15px;
   align-items: flex-start;
   flex: 1 1 0;
 }

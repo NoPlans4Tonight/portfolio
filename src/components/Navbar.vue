@@ -15,7 +15,7 @@
       <li class="list">
         <a href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#experiences">Experiences</a>
+        <a href="#work">Work History</a>
       </li>
     </div>
   </div>

@@ -3,7 +3,7 @@
     <Navbar />
     <Hero />
     <About />
-    <Experiences />
+    <Work />
   </div>
 </template>
 
@@ -11,13 +11,13 @@
 import About from "./About.vue";
 import Hero from "./Hero.vue";
 import Navbar from "./Navbar.vue";
-import Experiences from "./Projects/Experiences.vue";
+import Work from "./Projects/Work.vue";
 
 export default {
   name: "PortfolioComponent",
   components: {
     Hero,
-    Experiences,
+    Work,
     Navbar,
     About,
   },
