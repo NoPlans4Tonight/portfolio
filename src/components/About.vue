@@ -26,20 +26,7 @@
         </p>
         <div class="skills">
           <ul>
-            <li>Laravel</li>
-            <li>Vue.js</li>
-            <li>PHP</li>
-            <li>JavaScript</li>
-            <li>GraphQL</li>
-            <li>MySQL</li>
-            <li>Storyblok CMS</li>
-            <li>Redis</li>
-            <li>Git</li>
-            <li>RESTful APIs</li>
-            <li>Docker</li>
-            <li>Agile & Scrum</li>
-            <li>Software Architecture</li>
-            <li>Design Patterns (Factory, Repository, etc.)</li>
+            <li v-for="skill in skills" :key="skill">{{ skill }}</li>
           </ul>
         </div>
         <div>
@@ -59,6 +46,26 @@
 <script>
 export default {
   name: "AboutSection",
+  data() {
+    return {
+      skills: [
+        "Laravel",
+        "Vue.js",
+        "PHP",
+        "JavaScript",
+        "GraphQL",
+        "MySQL",
+        "Storyblok CMS",
+        "Redis",
+        "Git",
+        "RESTful APIs",
+        "Docker",
+        "Agile & Scrum",
+        "Software Architecture",
+        "Design Patterns (Factory, Repository, etc.)",
+      ],
+    };
+  },
 };
 </script>
 
