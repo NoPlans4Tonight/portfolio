@@ -132,4 +132,21 @@ li {
   line-height: 24px;
   margin: 0px 20px 10px 0px;
 }
+
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col1,
+  .col2 {
+    flex: 1 1 100%;
+    padding: 20px 15px;
+  }
+
+  .col2 {
+    max-width: 100%;
+  }
+}
 </style>
