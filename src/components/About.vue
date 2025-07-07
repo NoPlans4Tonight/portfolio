@@ -29,7 +29,7 @@
             <li v-for="skill in skills" :key="skill">{{ skill }}</li>
           </ul>
         </div>
-        <div>
+        <div class="links">
           <a
             href="https://github.com/NoPlans4Tonight"
             target="_blank"
@@ -37,6 +37,20 @@
           >
             <i class="fab fa-github" /> GitHub
           </a>
+          <div
+            class="badge-base LI-profile-badge"
+            data-locale="en_US"
+            data-size="medium"
+            data-theme="dark"
+            data-type="VERTICAL"
+            data-vanity="jonathon-l-887229141"
+            data-version="v1"
+          >
+            <a
+              class="badge-base__link LI-simple-link"
+              href="https://www.linkedin.com/in/jonathon-l-887229141?trk=profile-badge"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -158,6 +172,12 @@ li {
   padding: 5px 10px;
   border-radius: 5px;
   border-bottom: 3px solid #fff;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
 }
 
 @media (max-width: 768px) {
