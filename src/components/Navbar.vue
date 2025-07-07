@@ -3,11 +3,7 @@
     <div class="logo">
       <div class="Group_1">
         <div class="Rectangle">
-          <img
-            src="/public/developer-on-macbook.png"
-            alt="JLO"
-            class="logo-img"
-          />
+          <img src="/developer-on-macbook.png" alt="JLO" class="logo-img" />
         </div>
       </div>
     </div>
@@ -21,7 +17,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 html {
   scroll-behavior: smooth;
 }
