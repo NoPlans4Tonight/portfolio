@@ -1,7 +1,7 @@
 <template>
   <div id="about" class="section">
     <div class="col1">
-      <img src="/public/developer-on-macbook.png" alt="Avatar" />
+      <img src="/developer-on-macbook.png" alt="Avatar" />
     </div>
     <div class="col2">
       <div class="col2-inner">
@@ -44,26 +44,13 @@
 </template>
 
 <script>
+import skillsData from "../helpers/skillsData";
+
 export default {
   name: "AboutSection",
   data() {
     return {
-      skills: [
-        "Laravel",
-        "Vue.js",
-        "PHP",
-        "JavaScript",
-        "GraphQL",
-        "MySQL",
-        "Storyblok CMS",
-        "Redis",
-        "Git",
-        "RESTful APIs",
-        "Docker",
-        "Agile & Scrum",
-        "Software Architecture",
-        "Design Patterns (Factory, Repository, etc.)",
-      ],
+      skills: skillsData,
     };
   },
 };
